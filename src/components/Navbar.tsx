@@ -13,11 +13,11 @@ import {
 
 const navigation = [
     { name: 'Home', href: '/'},
-    { name: 'Chi siamo', href: '/chi-siamo',  },
-    { name: 'Pubblicizzare', href: '/pubblicizzare' },
-    { name: 'Distribuisci', href: '/distribuisci' },
-    { name: 'FAQ', href: '/faq' },
-    { name: 'Social', href: '/social' },
+    { name: 'Chi siamo', href: '/#chisiamo',  },
+    { name: 'Pubblicizzare', href: '/#pubblicizzare' },
+    { name: 'Distribuisci', href: '/#distribuisci' },
+    { name: 'FAQ', href: '/#faq' },
+    { name: 'Social', href: '/#social' },
   ]
 
 export default function Navbar() {
@@ -26,10 +26,10 @@ export default function Navbar() {
     console.log(pathname)
 
   return (
-    <header className="fixed backdrop-blur-xl md:bg-white/70 inset-x-0 top-0 z-50">
+    <header className="fixed backdrop-blur-xl md:bg-white/50 inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <Link href="/#home" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Name</span>
                 <Image src={RefreeshLogo} width={120} height={120} alt='logo' className='font-semibold text-xl' />
             </Link> 
@@ -52,14 +52,14 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="#contact" className="text-smg hover:text-blue-500 duration-150 font-semibold leading-6 ">
+            <Link href="#contact" className="text-smg text-blue-700 duration-150 font-semibold leading-6 ">
               Contattaci <span aria-hidden="true" className='pl-1'>&rarr;</span>
             </Link>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white/70 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Refreesh</span>
