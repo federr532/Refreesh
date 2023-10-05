@@ -22,7 +22,7 @@ export default function Home() {
               RE<span className='text-blue-500'>FREE</span>SH: Bevi Sostenibile
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-500">
-            Unisciti a noi nella rivoluzione dell'acqua di cartone promozionale!
+            Unisciti a noi nella rivoluzione dell&apos;acqua di cartone promozionale!
             </p>
             <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
               <a
