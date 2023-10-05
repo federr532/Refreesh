@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Dialog } from '@headlessui/react'
-import RefreeshLogo from '../../public/refresh-logo.svg'
+import RefreeshLogo from '../../public/REFRESH-logo.png'
 import {
   Bars3Icon,
   XMarkIcon,
@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="flex lg:flex-1">
             <Link href="/#home" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Name</span>
-                <Image src={RefreeshLogo} width={100} height={100} alt='logo' className='font-semibold text-xl' />
+                <Image src={RefreeshLogo} width={120} height={120} alt='logo' className='font-semibold text-xl' />
             </Link> 
           </div>
           <div className="flex lg:hidden">
@@ -52,7 +52,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="#contact" className="text-smg hover:text-blue-300 duration-150 font-semibold leading-6 ">
+            <Link href="#contact" className="text-smg hover:text-blue-500 duration-150 font-semibold leading-6 ">
               Contattaci <span aria-hidden="true" className='pl-1'>&rarr;</span>
             </Link>
           </div>
@@ -62,8 +62,8 @@ export default function Navbar() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white/70 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <h2 className='font-semibold text-xl'>Shirjeel</h2>
+                <span className="sr-only">Refreesh</span>
+                
               </a>
               <button
                 type="button"
