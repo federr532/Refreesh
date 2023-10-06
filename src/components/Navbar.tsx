@@ -12,18 +12,15 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: '/'},
+    { name: 'Home', href: '/#home'},
     { name: 'Chi siamo', href: '/#chisiamo',  },
-    { name: 'Pubblicizzare', href: '/#pubblicizzare' },
-    { name: 'Distribuisci', href: '/#distribuisci' },
+    { name: 'Pubblicizzare', href: '/pubblicizzare' },
     { name: 'FAQ', href: '/#faq' },
-    { name: 'Social', href: '/#social' },
   ]
 
 export default function Navbar() {
     const pathname = usePathname()
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-    console.log(pathname)
 
   return (
     <header className="fixed backdrop-blur-xl md:bg-white/50 inset-x-0 top-0 z-50">
