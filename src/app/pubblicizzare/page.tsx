@@ -22,19 +22,19 @@ export default function page() {
             <div className='flex flex-col gap-3'>
                 <Image src={location} height={50} width={50} alt="location" />
                 <h3 className='text-lg font-semibold text-grey-800'>1. Scelta delle Location</h3>
-                <p className='text-gray-500 max-w-lg'>Le bottiglie di acqua con pubblicità vengono distribuite in varie location ad alto traffico, tra cui eventi sportivi, concerti, fiere commerciali, parchi e altre aree pubbliche. Queste location sono accuratamente selezionate per massimizzare la visibilità e l'impatto delle campagne pubblicitarie.</p>
+                <p className='text-gray-500 max-w-lg'>Le bottiglie di acqua con pubblicità vengono distribuite in varie location ad alto traffico, tra cui eventi sportivi, concerti, fiere commerciali, parchi e altre aree pubbliche. Queste location sono accuratamente selezionate per massimizzare la visibilità e l&apos;impatto delle campagne pubblicitarie.</p>
             </div>
             <div className='flex flex-col gap-3'>
                 <Image src={bottleBlue} height={50} width={50} alt="bottle" />
                 <h3 className='text-lg font-semibold text-grey-800'>2. Produzione di Bottiglie Sostenibili</h3>
-                <p className='text-gray-500 max-w-lg'>Una volta raccolti i contratti pubblicitari, produciamo le bottiglie di acqua di cartone con gli spazi pubblicitari appropriati. Utilizziamo materiali ecologici e sostenibili per contribuire a preservare l'ambiente.</p>
+                <p className='text-gray-500 max-w-lg'>Una volta raccolti i contratti pubblicitari, produciamo le bottiglie di acqua di cartone con gli spazi pubblicitari appropriati. Utilizziamo materiali ecologici e sostenibili per contribuire a preservare l&apos;ambiente.</p>
             </div>
         </div>
         <div className='flex justify-center mt-14 lg:mt-20'>
             <div className='flex flex-col gap-3'>
                     <Image src={noMoney} height={50} width={50} alt="bottle" />
                     <h3 className='text-lg font-semibold text-grey-800'>3. Distribuzione Gratuita</h3>
-                    <p className='text-gray-500 max-w-lg'>Le bottiglie di acqua con pubblicità vengono distribuite gratuitamente alle persone in queste location. I consumatori possono prendere le bottiglie senza costi e godersi l'acqua all'interno, promuovendo così uno stile di vita sano e idratato.</p>
+                    <p className='text-gray-500 max-w-lg'>Le bottiglie di acqua con pubblicità vengono distribuite gratuitamente alle persone in queste location. I consumatori possono prendere le bottiglie senza costi e godersi l&apos;acqua all&apos;interno, promuovendo così uno stile di vita sano e idratato.</p>
                 </div>
         </div>
     </section>
