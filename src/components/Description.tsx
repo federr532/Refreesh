@@ -15,7 +15,7 @@ export default function Description() {
         <div className='mt-28 px-20 flex flex-col lg:flex-row gap-28 xl:gap-72 items-center'>
             <div>
                 <h3 className='text-2xl text-center lg:text-start md:text-3xl xl:text-5xl font-semibold'>Non usiamo bottiglie di plastica</h3>
-                <p className='max-w-xl mt-9 text-center lg:text-start text-gray-700'>REFREESH non utilizza bottiglie di plastica per promuovere la sostenibilità ambientale. Le bottiglie di cartone, sostenibili e riciclabili, riducono l'impatto ambientale, promuovendo l'uso responsabile delle risorse, risparmiando energia nella produzione e migliorando l'immagine aziendale attraverso la responsabilità sociale.</p>
+                <p className='max-w-xl mt-9 text-center lg:text-start text-gray-700'>REFREESH non utilizza bottiglie di plastica per promuovere la sostenibilità ambientale. Le bottiglie di cartone, sostenibili e riciclabili, riducono l&apos;impatto ambientale, promuovendo l&apos;uso responsabile delle risorse, risparmiando energia nella produzione e migliorando l&apos;immagine aziendale attraverso la responsabilità sociale.</p>
             </div>
             <Image draggable="false" src={nonplastic} height={500} width={500} alt='no plastica' className='scale-125' />
         </div>
