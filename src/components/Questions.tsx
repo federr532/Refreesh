@@ -1,4 +1,3 @@
-import Question from "./Question";
 
 import QuestionComponent from "./Question";
 import { ReactElement } from "react";
