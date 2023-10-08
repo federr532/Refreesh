@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import bottiglie from '../../public/bottiglie.png'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -26,14 +27,14 @@ export default function Hero() {
             Unisciti a noi nella rivoluzione dell&apos;acqua di cartone promozionale!
             </p>
             <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-blue-600 px-7 py-3 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              <Link
+                href="/contattaci"
+                className="rounded-md bg-blue-600 duration-150 px-7 py-3 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Contattaci
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                Scopri di più <span aria-hidden="true">→</span>
-              </a>
+              </Link>
+              <Link href="/pubblicizzare" className="text-sm font-semibold leading-6 text-gray-900">
+                Pubblicizza con noi <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
         </div>

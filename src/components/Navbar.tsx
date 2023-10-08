@@ -12,10 +12,10 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: '/#home'},
+    { name: 'Home', href: '/'},
     { name: 'Chi siamo', href: '/#chisiamo',  },
     { name: 'Pubblicizzare', href: '/pubblicizzare' },
-    { name: 'FAQ', href: '/#faq' },
+    { name: 'FAQ', href: '/faq' },
   ]
 
 export default function Navbar() {
@@ -49,7 +49,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="#contact" className="text-smg text-blue-700 duration-150 font-semibold leading-6 ">
+            <Link href="/contattaci" className="text-smg text-blue-700 duration-150 font-semibold leading-6 ">
               Contattaci <span aria-hidden="true" className='pl-1'>&rarr;</span>
             </Link>
           </div>
@@ -88,7 +88,7 @@ export default function Navbar() {
                 <div className="py-6">
                   <a
                     onClick={() => setMobileMenuOpen(false)}
-                    href="#contact"
+                    href="/contattaci"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-blue-700 hover:text-gray-100"
                   >
                     Contattaci

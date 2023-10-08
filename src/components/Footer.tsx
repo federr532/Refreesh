@@ -10,7 +10,7 @@ export default function Footer() {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-around">
           <div className="mb-20 md:mb-0 mt-10">
-              <Link href="/">
+              <Link href="/contattaci">
                   <span className="self-center bg-blue-700 rounded-lg py-4 px-6 hover:bg-blue-800 duration-150 font-semibold whitespace-nowrap dark:text-white"> Contattaci <span aria-hidden="true" className='pl-2'>&rarr;</span> </span>
                 </Link>
           </div>
@@ -21,20 +21,20 @@ export default function Footer() {
                           <Link href="/" className="hover:underline">Home</Link>
                       </li>
                       <li className='mb-4'>
-                          <Link href="/" className="hover:underline">Chi Siamo</Link>
+                          <Link href="/#chisiamo" className="hover:underline">Chi Siamo</Link>
                       </li>
                       <li>
-                          <Link href="/" className="hover:underline">Pubblicizzare</Link>
+                          <Link href="/pubblicizzare" className="hover:underline">Pubblicizzare</Link>
                       </li>
                   </ul>
               </div>
               <div>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className='mb-4'>
-                          <Link href="/" className="hover:underline">FAQ</Link>
+                          <Link href="/faq" className="hover:underline">FAQ</Link>
                       </li>
                       <li>
-                          <Link href="/" className="hover:underline">Contattaci</Link>
+                          <Link href="/contattaci" className="hover:underline">Contattaci</Link>
                       </li>
                   </ul>
               </div>
