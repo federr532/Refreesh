@@ -11,9 +11,9 @@ export default function page() {
     <section className='mt-36 overflow-hidden lg:mt-20 px-16 lg:px-32'>
         <div className='flex flex-col lg:flex-row items-center justify-around'>
             <div className='flex flex-col items-center lg:items-start'>
-                <h1 className='font-bold text-center lg:text-start text-4xl xl:text-6xl'>Pubblicizza con RE<span className='text-blue-500'>FREE</span>SH</h1>
+                <h1 className='font-bold text-center lg:text-start text-4xl xl:text-6xl'>Pubblicizza con RE<span className='text-c-blue'>FREE</span>SH</h1>
                 <p className='mt-8 mb-12 text-gray-500 xl:text-xl text-center lg:text-start'>Promuovi il Tuo Brand in Modo Sostenibile e Accessibile</p>
-                <Link href="/contattaci" className="rounded-md bg-blue-600 w-fit duration-150 px-7 py-4 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <Link href="/contattaci" className="rounded-md bg-c-blue w-fit duration-150 px-7 py-4 font-semibold text-white shadow-sm hover:bg-cyan-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Contattaci ora <span aria-hidden="true" className='pl-3'>→</span>
               </Link>
             </div>

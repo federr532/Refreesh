@@ -10,7 +10,7 @@ export default function Hero() {
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true">
           <div
-            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#8492ff] to-[#b5aef4] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#85e7f6] to-[#01aac4] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="pt-28 pb-8 md:py-56">
           <div className="text-center md:text-start">
             <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
-              RE<span className='text-blue-500'>FREE</span>SH: Bevi Sostenibile
+              RE<span className='text-c-blue'>FREE</span>SH: Bevi Sostenibile
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-500">
             Unisciti a noi nella rivoluzione dell&apos;acqua di cartone promozionale!
@@ -29,10 +29,10 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
               <Link
                 href="/contattaci"
-                className="rounded-md bg-blue-600 duration-150 px-7 py-3 font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                className="rounded-md bg-c-blue duration-150 px-7 py-3 font-semibold text-white shadow-sm hover:bg-cyan-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Contattaci
               </Link>
-              <Link href="/pubblicizzare" className="text-sm font-semibold leading-6 text-gray-900">
+              <Link href="/pubblicizzare" className="text-sm font-semibold hover:text-c-blue duration-150 leading-6 text-gray-900">
                 Pubblicizza con noi <span aria-hidden="true">→</span>
               </Link>
             </div>
@@ -43,7 +43,7 @@ export default function Hero() {
           aria-hidden="true"
         >
           <div
-            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#8097ff] to-[#3124ea] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#85e7f6] to-[#01aac4] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',

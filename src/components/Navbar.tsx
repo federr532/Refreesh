@@ -43,13 +43,13 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-blue-500" : "text-gray-500"} hover:text-blue-300 leading-6`}>
+              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-c-blue" : "text-gray-500"} hover:text-c-blue leading-6`}>
                 {item.name}
               </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="/contattaci" className="text-smg text-blue-700 duration-150 font-semibold leading-6 ">
+            <Link href="/contattaci" className="text-smg text-c-blue duration-150 font-semibold leading-6 ">
               Contattaci <span aria-hidden="true" className='pl-1'>&rarr;</span>
             </Link>
           </div>
@@ -89,7 +89,7 @@ export default function Navbar() {
                   <a
                     onClick={() => setMobileMenuOpen(false)}
                     href="/contattaci"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-blue-700 hover:text-gray-100"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-cyan-600 hover:text-gray-100"
                   >
                     Contattaci
                   </a>
