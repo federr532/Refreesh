@@ -1,13 +1,21 @@
 import Image from 'next/image'
 import contact from '../../../public/contact.svg'
 import Form from '../../components/Form'
+import { headers } from 'next/headers';
 
 
 export default function page() {
+
+  const headersList = headers();
+
+  const domain = headersList.get('host');
+
   return (
     <section className="mt-32 px-4 lg:px-11">
         <h1 className='text-5xl font-semibold'>Contattaci ora</h1>
-        <Form />
+        <Form
+          host= {domain}
+         />
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-35rem)]"
           aria-hidden="true"
