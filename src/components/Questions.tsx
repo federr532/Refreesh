@@ -28,7 +28,7 @@ export default function Questions(): ReactElement {
             <QuestionComponent
                 collapseNum="collapse5"
                 title="Quali sono i benefici per le aziende che partecipano a REFREESH?"
-                content="Le aziende ottengono visibilità del marchio su un prodotto ampiamente consumato, promuovendo una maggiore consapevolezza del marchio. Inoltre, partecipare a REFREESH può migliorare l&apos;immagine aziendale attraverso l'associazione con la sostenibilità e generare entrate dalla vendita di spazi pubblicitari."
+                content="Le aziende ottengono visibilità del marchio su un prodotto ampiamente consumato, promuovendo una maggiore consapevolezza del marchio. Inoltre, partecipare a REFREESH può migliorare l&apos;immagine aziendale attraverso l'associazione con la sostenibilità ambientale."
             />
             <QuestionComponent
                 collapseNum="collapse6"
