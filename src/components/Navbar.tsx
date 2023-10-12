@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Dialog } from '@headlessui/react'
-import RefreeshLogo from '../../public/REFRESH-logo.png'
+import RefreeshLogo from '../../public/REFRESH-logo.svg'
 import {
   Bars3Icon,
   XMarkIcon,
