@@ -17,14 +17,14 @@ export default function Hero() {
             }}
           />
         </div>
-        <div className='flex mx-auto max-w-6xl gap-6 flex-col md:flex-row items-center'>
+        <div className='flex mx-auto max-w-6xl gap-6 flex-col md:flex-row items-center justify-between'>
         <div className="pt-28 pb-8 md:py-56">
-          <div className="text-center md:text-start">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
-              RE<span className='text-c-blue'>FREE</span>SH: Bevi Sostenibile
+          <div className="text-center lg:text-start">
+            <h1 className=" font-bold tracking-tight text-gray-800 text-5xl lg:text-8xl">
+              RE<span className='text-c-blue'>FREE</span>SH
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-500">
-            Unisciti a noi nella rivoluzione dell&apos;acqua di cartone promozionale!
+            <p className="mt-6 text-lg leading-8 font-semibold text-[#606060]/70">
+            Sorseggia, Sponsorizza, Sostieni
             </p>
             <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
               <Link
