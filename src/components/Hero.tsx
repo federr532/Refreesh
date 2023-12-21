@@ -50,7 +50,7 @@ export default function Hero() {
               }}
             />
           </div>
-          <Image draggable="false" src={bottiglie} height={1080} width={1920} alt='' className='w-full' />
+          <Image draggable="false" src={bottiglie} height={1080} width={1920} alt='' className='w-full xl:w-[40rem]' />
           </div>
         </div>
   )
