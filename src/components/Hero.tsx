@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import bottiglie from '../../public/bottiglie.png'
+import bottiglie from "@/../public/bottiglie.png"
 import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div id='#home' className="relative isolate px-6 pt-14 lg:px-8">
+    <div id='#home' className="relative isolate px-6 pt-14">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true">
@@ -17,7 +17,7 @@ export default function Hero() {
             }}
           />
         </div>
-        <div className='flex mx-auto max-w-6xl gap-6 flex-col md:flex-row items-center justify-between'>
+        <div className='flex mx-auto max-w-6xl gap-20 flex-col md:flex-row items-center justify-center'>
         <div className="pt-28 pb-8 md:py-56">
           <div className="text-center lg:text-start">
             <h1 className=" font-bold tracking-tight text-gray-800 text-5xl lg:text-8xl">
@@ -50,7 +50,7 @@ export default function Hero() {
               }}
             />
           </div>
-          <Image draggable="false" src={bottiglie} height={1000} width={1000} alt='' className='md:w-[28rem] md:h-[28rem]' />
+          <Image draggable="false" src={bottiglie} height={1080} width={1920} alt='' className='w-full' />
           </div>
         </div>
   )
