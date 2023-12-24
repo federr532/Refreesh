@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import bottles from '../../../public/bottles.png'
+import bottiglieUp from '../../../public/bottiglieUp.png'
 import location from '../../../public/location.png'
 import bottleBlue from '../../../public/bottle-blue.png'
 import noMoney from '../../../public/no-money.png'
@@ -8,20 +8,19 @@ import Link from 'next/link'
 
 export default function page() {
   return (
-    <section className='mt-36 overflow-hidden lg:mt-20 px-16 lg:px-32'>
+    <section className='mt-36 overflow-hidden  lg:px-32'>
         <div className='flex flex-col lg:flex-row items-center justify-around'>
             <div className='flex flex-col items-center lg:items-start'>
                 <h1 className='font-bold text-center lg:text-start text-4xl xl:text-6xl'>Pubblicizza con RE<span className='text-c-blue'>FREE</span>SH</h1>
-                <p className='mt-8 mb-12 text-gray-500 xl:text-xl text-center lg:text-start'>Promuovi il Tuo Brand in Modo Sostenibile e Accessibile</p>
+                <p className='mt-8 mb-12 px-10 lg:px-0 text-gray-500 xl:text-xl text-center lg:text-start'>Promuovi il Tuo Brand in Modo Sostenibile e Accessibile</p>
                 <Link href="/contattaci" className="rounded-md bg-c-blue w-fit duration-150 px-7 py-4 font-semibold text-white shadow-sm hover:bg-cyan-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Contattaci ora <span aria-hidden="true" className='pl-3'>→</span>
               </Link>
             </div>
-            <Image draggable="false" src={bottles} width={800} height={800} alt='bottiglie' className='max-w-2xl 2xl:max-w-none' />
+            <Image draggable="false" src={bottiglieUp} width={800} height={800} alt='bottiglie' className='md:max-w-2xl mt-16 2xl:max-w-none' />
         </div>
-
-        <h4 className='text-3xl font-semibold text-gray-800 mt-10'>Il Nostro Processo di Distribuzione</h4>
-        <div className='flex flex-col items-center'>
+        <h4 className='text-3xl px-16 lg:px-0 font-semibold text-gray-800 mt-10'>Il Nostro Processo di Distribuzione</h4>
+        <div className='flex px-16 lg:px-0 flex-col items-center'>
         <div className='grid gap-14 grid-cols-1 lg:grid-cols-2 mt-20'>
             <div className='flex flex-col gap-3'>
                 <Image src={location} height={50} width={50} alt="location" />
