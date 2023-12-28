@@ -44,10 +44,10 @@ export default function Form({host}: {host : string | null}) {
             <textarea name="Messaggio" required id="message" className="rounded-xl border border-gray-400 px-4 py-3 text-black" placeholder="Il tuo messaggio" rows={6} maxLength={700} />
         </div>
         <div className="flex gap-3 items-center">
-            <input required id="checkbox" type="checkbox" value="" className="w-4 h-4 text-c-blue bg-indigo-100 border-c-blue rounded-xl focus:ring-c-blue focus:ring-2" />
+            <input required id="checkbox" type="checkbox" value="" className="w-4 h-4 text-c-yellow bg-indigo-100 border-c-yellow rounded-xl focus:ring-c-yellow focus:ring-2" />
             <label htmlFor="checkbox" className="text-[.8rem]">Sono d&apos;accordo con i Termini di utilizzo e l&apos;Informativa sulla privacy.</label>
         </div>
-        <button className="bg-c-blue hover:bg-cyan-600 text-white duration-300 py-3 rounded-lg" >Invia</button>
+        <button className="bg-c-yellow hover:bg-yellow-500 text-white duration-300 py-3 rounded-lg" >Invia</button>
         {submitted && <p className="text-green-500">Messaggio inviato!</p>}
     </div>
     <div className="flex items-center justify-center flex-col gap-2 w-full">
