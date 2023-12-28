@@ -13,8 +13,8 @@ import {
 
 const navigation = [
     { name: 'Home', href: '/'},
-    { name: 'Chi siamo', href: '/#chisiamo',  },
-    { name: 'Pubblicizzare', href: '/pubblicizzare' },
+    { name: 'Contattaci', href: '/contattaci',  },
+    { name: 'Pubblicizza', href: '/pubblicizzare' },
     { name: 'FAQ', href: '/faq' },
   ]
 
@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed backdrop-blur-xl md:bg-white/50 inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <nav className="flex items-center justify-between p-6 lg:px-32" aria-label="Global">
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Name</span>
@@ -48,11 +48,7 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="/contattaci" className="text-smg text-yellow-500 duration-150 font-semibold leading-6 ">
-              Contattaci <span aria-hidden="true" className='pl-1'>&rarr;</span>
-            </Link>
-          </div>
+
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
@@ -84,15 +80,6 @@ export default function Navbar() {
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
-                  <a
-                    onClick={() => setMobileMenuOpen(false)}
-                    href="/contattaci"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-cyan-600 hover:text-gray-100"
-                  >
-                    Contattaci
-                  </a>
                 </div>
               </div>
             </div>
