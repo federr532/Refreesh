@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="pt-28 pb-8 md:py-56">
           <div className="text-center lg:text-start">
             <h1 className=" font-bold tracking-tight text-gray-800 text-5xl lg:text-8xl">
-              RE<span className='text-c-blue'>FREE</span>SH
+              RE<span className='text-c-yellow'>FREE</span>SH
             </h1>
             <p className="mt-6 text-lg leading-8 font-semibold text-[#606060]/70">
             Sorseggia, Sponsorizza, Sostieni
@@ -29,10 +29,10 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
               <Link
                 href="/contattaci"
-                className="rounded-md bg-c-blue duration-150 px-7 py-3 font-semibold text-white shadow-sm hover:bg-cyan-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                className="rounded-md bg-c-yellow duration-150 px-7 py-3 font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Contattaci
               </Link>
-              <Link href="/pubblicizzare" className="text-sm font-semibold hover:text-c-blue duration-150 leading-6 text-gray-900">
+              <Link href="/pubblicizzare" className="text-sm font-semibold hover:text-c-yellow duration-150 leading-6 text-gray-900">
                 Pubblicizza con noi <span aria-hidden="true">→</span>
               </Link>
             </div>

@@ -43,13 +43,13 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-c-blue" : "text-gray-500"} hover:text-c-blue leading-6`}>
+              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-yellow-500" : "text-gray-500"} hover:text-yellow-500 leading-6`}>
                 {item.name}
               </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link href="/contattaci" className="text-smg text-c-blue duration-150 font-semibold leading-6 ">
+            <Link href="/contattaci" className="text-smg text-yellow-500 duration-150 font-semibold leading-6 ">
               Contattaci <span aria-hidden="true" className='pl-1'>&rarr;</span>
             </Link>
           </div>

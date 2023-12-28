@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="md:flex md:justify-around">
           <div className="mb-20 md:mb-0 mt-10">
               <Link href="/contattaci">
-                  <span className="self-center bg-c-blue rounded-lg py-4 px-6 hover:bg-cyan-600 duration-150 font-semibold whitespace-nowrap dark:text-white"> Contattaci <span aria-hidden="true" className='pl-2'>&rarr;</span> </span>
+                  <span className="self-center bg-c-yellow rounded-lg py-4 px-6 hover:bg-yellow-500 duration-150 font-semibold whitespace-nowrap dark:text-white"> Contattaci <span aria-hidden="true" className='pl-2'>&rarr;</span> </span>
                 </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-28 sm:grid-cols-2">
