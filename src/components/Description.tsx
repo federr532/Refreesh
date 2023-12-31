@@ -17,7 +17,7 @@ export default function Description() {
         <div className='mt-28 px-20 flex flex-col lg:flex-row gap-28 xl:gap-72 items-center'>
             <div>
                 <h3 className='text-2xl text-center lg:text-start md:text-3xl xl:text-5xl font-semibold'>Niente plastica, solo cartone</h3>
-                <p className='max-w-xl mt-9 text-center lg:text-start text-gray-500'>REFREESH utilizza esclusivamente bottiglie di cartone, sostenibili e riciclabili, riducendo così l'impatto ambientale, rendendo sostenibile la pubblicità e migliorando l'immagine delle aziende partner</p>
+                <p className='max-w-xl mt-9 text-center lg:text-start text-gray-500'>REFREESH utilizza esclusivamente bottiglie di cartone, sostenibili e riciclabili, riducendo così l&apos;impatto ambientale, rendendo sostenibile la pubblicità e migliorando l&apos;immagine delle aziende partner</p>
             </div>
             <Image draggable="false" src={noPlastica} height={500} width={500} alt='no plastica' className='scale-125' />
         </div>
