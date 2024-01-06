@@ -6,12 +6,12 @@ import instagram from '../../public/instagram.png'
 
 export default function Footer() {
   return (
-    <footer className=" mt-48 bg-gray-800">
+    <footer className=" mt-48 bg-black/90">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-around">
           <div className="mb-20 md:mb-0 mt-10">
               <Link href="/contattaci">
-                  <span className="self-center bg-c-yellow rounded-lg py-4 px-6 hover:bg-yellow-500 duration-150 font-semibold whitespace-nowrap dark:text-white"> Contattaci <span aria-hidden="true" className='pl-2'>&rarr;</span> </span>
+                  <span className="self-center bg-c-yellow rounded-lg py-4 px-6 hover:bg-yellow-500 duration-150 font-semibold whitespace-nowrap text-gray-700"> Contattaci <span aria-hidden="true" className='pl-2'>&rarr;</span> </span>
                 </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-28 sm:grid-cols-2">

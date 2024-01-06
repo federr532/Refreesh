@@ -47,7 +47,7 @@ export default function Form({host}: {host : string | null}) {
             <input required id="checkbox" type="checkbox" value="" className="w-4 h-4 text-c-yellow bg-indigo-100 border-c-yellow rounded-xl focus:ring-c-yellow focus:ring-2" />
             <label htmlFor="checkbox" className="text-[.8rem]">Sono d&apos;accordo con i Termini di utilizzo e l&apos;Informativa sulla privacy.</label>
         </div>
-        <button className="bg-c-yellow hover:bg-yellow-500 text-white duration-300 py-3 rounded-lg" >Invia</button>
+        <button className="bg-c-yellow hover:bg-yellow-500 text-gray-700 duration-300 py-3 rounded-lg" >Invia</button>
         {submitted && <p className="text-green-500">Messaggio inviato!</p>}
     </div>
     <div className="flex items-center justify-center flex-col gap-2 w-full">

@@ -29,7 +29,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
               <Link
                 href="/pubblicizzare"
-                className="rounded-md bg-c-yellow duration-150 px-7 py-3 font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                className="rounded-md bg-c-yellow duration-150 px-7 py-3 font-semibold text-gray-700 shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Pubblicizza con noi <span aria-hidden="true">→</span>
               </Link>
             </div>
