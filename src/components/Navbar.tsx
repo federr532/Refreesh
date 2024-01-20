@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Dialog } from '@headlessui/react'
-import RefreeshLogo from '../../public/REFRESH-logo.svg'
+import RefreeshLogo from '../../public/RefreeshLogo.png'
 import {
   Bars3Icon,
   XMarkIcon,
@@ -43,7 +43,7 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-yellow-500" : "text-gray-500"} hover:text-yellow-500 leading-6`}>
+              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-c-yellow" : "text-gray-500"} hover:text-yellow-500 leading-6`}>
                 {item.name}
               </Link>
             ))}
