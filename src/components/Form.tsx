@@ -13,7 +13,7 @@ export default function Form({host}: {host : string | null}) {
       }
 
   return (
-    <form onSubmit={onSubmit} action="https://formsubmit.co/refreeshmail@gmail.com" method="POST" className="mt-10 mb-14 px-6 flex rounded-2xl py-14 shadow-xl bg-contactBg lg:flex-row flex-col gap-10 backdrop-blur-2xl bg-gray-50/70 lg:px-16">
+    <form onSubmit={onSubmit} action="https://formsubmit.co/info@refreesh.it" method="POST" className="mt-10 mb-14 px-6 flex rounded-2xl py-14 shadow-xl bg-contactBg lg:flex-row flex-col gap-10 backdrop-blur-2xl bg-gray-50/70 lg:px-16">
     <input type="hidden" name="_next" value={`https://${host}/contattaci`} />
     <input type="hidden" name="_template" value="table" />
     <input type="hidden" name="_subject" value="New submission!" />
