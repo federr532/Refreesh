@@ -7,7 +7,6 @@ import PhotoCarousel from '@/components/PhotoCarousel'
 import { headers } from 'next/headers';
 
 
-
 export default function Home() {
 
   const headersList = headers();
