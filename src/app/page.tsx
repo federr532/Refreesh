@@ -2,17 +2,25 @@ import Image from 'next/image'
 import Hero from '../components/Hero'
 import Cards from '../components/Cards'
 import Description from '@/components/Description'
-import Gallery from '@/components/Gallery'
+import Feed from '@/components/Feed'
+import PhotoCarousel from '@/components/PhotoCarousel'
+import { headers } from 'next/headers';
 
-// #3B82F6 - blue
+
 
 export default function Home() {
+
+  const headersList = headers();
+
+  const domain = headersList.get('host');
+
   return (
       <section>
         <Hero />
         <Cards />
         <Description />
-        <Gallery />
+        <PhotoCarousel />
+        {domain === 'refreesh.it' || domain === 'refreesh.com' ? <Feed /> : null}
       </section>
   )
 }
