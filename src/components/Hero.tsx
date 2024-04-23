@@ -26,11 +26,15 @@ export default function Hero() {
             <p className="mt-6 text-lg leading-8 font-semibold text-gray-600">
             La prima acqua promozionale
             </p>
-            <div className="mt-10 flex items-center justify-center md:justify-start gap-x-6">
+            <div className="mt-10 flex flex-col lg:flex-row items-center justify-center md:justify-start gap-4">
               <Link
                 href="/pubblicizzare"
                 className="rounded-md bg-c-yellow duration-150 px-7 py-3 font-semibold text-gray-700 shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                Pubblicizza con noi <span aria-hidden="true">→</span>
+                Pubblicizza con noi
+              </Link>
+              <Link href="/chi-siamo"
+                className="rounded-md duration-150 px-7 py-3 font-semibold text-gray-700 hover:text-gray-500">
+                Chi siamo <span className='pl-1' aria-hidden="true">→</span>
               </Link>
             </div>
           </div>

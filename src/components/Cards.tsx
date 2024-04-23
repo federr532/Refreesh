@@ -11,7 +11,7 @@ export default function Cards() {
   return (
     <div className="mt-20 max-w-[120rem] mx-auto md:mt-0 px-5 lg:px-16 gap-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mb-14 lg:mb-0">
             <div className="flex flex-col backdrop-blur-xl px-5 shadow-xl py-10 md:gap-0 rounded-xl justify-center items-center">
-                <Image src={visibilità} height={imageSize} width={imageSize} alt="" className="pb-2 pt-4 fill-c-yellow stroke-none" />
+                <Image src={visibilità} height={imageSize} width={imageSize} alt="" className="pb-2 pt-4 stroke-none" />
             <div className="flex w-2/3 md:w-fit flex-col items-center gap-2">
                 <p className="w-64 text-gray-400 text-center">Potenzia il tuo marchio su un prodotto sostenibile, raggiungendo consumatori in ambienti chiave.</p>
             </div>
