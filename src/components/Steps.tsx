@@ -37,7 +37,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Ricerca di mercato</h2>
-          <p className="leading-relaxed">Studio delle tendenze di consumo di acqua e delle opportunità di mercato per l'acqua promozionale in cartone, comprese le preferenze dei consumatori e le esigenze delle aziende.</p>
+          <p className="leading-relaxed">Studio delle tendenze di consumo di acqua e delle opportunità di mercato per l&apos;acqua promozionale in cartone, comprese le preferenze dei consumatori e le esigenze delle aziende.</p>
         </div>
       </div>
     </div>

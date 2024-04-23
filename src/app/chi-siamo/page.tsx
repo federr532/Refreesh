@@ -9,7 +9,7 @@ import yellow from "@/../public/Gallery/yellow.webp"
 import noPlastica from "@/../public/noPlastica.png"
 
 
-export default function page() {
+export default function Page() {
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
