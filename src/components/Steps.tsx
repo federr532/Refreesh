@@ -22,7 +22,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Consulenza iniziale e valutazione fattibilità</h2>
-          <p className="leading-relaxed">Analisi approfondita delle esigenze del cliente, valutazione e vantaggi nell'implementare una strategia di marketing basata sull'utilizzo di acqua in cartone come mezzo pubblicitario , includendo valutazione di fattibilità e proiezioni di costo e beneficio.</p>
+          <p className="leading-relaxed">Analisi approfondita delle esigenze del cliente, valutazione e vantaggi nell&apos;implementare una strategia di marketing basata sull&apos;utilizzo di acqua in cartone come mezzo pubblicitario , includendo valutazione di fattibilità e proiezioni di costo e beneficio.</p>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Ricerca di mercato</h2>
-          <p className="leading-relaxed">Analisi dettagliata del mercato per identificare i punti di distribuzione ottimali in linea con gli obiettivi e l'identità aziendale. L’obiettivo è garantire che la distribuzione avvenga in luoghi e tempi dove è più probabile intercettare e coinvolgere efficacemente il pubblico di interesse dell'azienda.</p>
+          <p className="leading-relaxed">Analisi dettagliata del mercato per identificare i punti di distribuzione ottimali in linea con gli obiettivi e l&apos;identità aziendale. L’obiettivo è garantire che la distribuzione avvenga in luoghi e tempi dove è più probabile intercettare e coinvolgere efficacemente il pubblico di interesse dell&apos;azienda.</p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Studio e realizzazione grafica</h2>
-          <p className="leading-relaxed">Progettazione e sviluppo di grafiche innovative e su misura per le bottiglie d'acqua in cartone, mirate a rappresentare fedelmente l'identità del marchio del cliente,  coinvolgere il pubblico target attraverso un design distintivo.</p>
+          <p className="leading-relaxed">Progettazione e sviluppo di grafiche innovative e su misura per le bottiglie d&apos;acqua in cartone, mirate a rappresentare fedelmente l&apos;identità del marchio del cliente,  coinvolgere il pubblico target attraverso un design distintivo.</p>
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Distribuzione</h2>
-          <p className="leading-relaxed">Le bottiglie d'acqua in cartone vengono regalate ai consumatori nei nostri punti di distribuzione ufficiali Refreesh, situati strategicamente in aree e nelle ore di maggior afflusso.</p>
+          <p className="leading-relaxed">Le bottiglie d&apos;acqua in cartone vengono regalate ai consumatori nei nostri punti di distribuzione ufficiali Refreesh, situati strategicamente in aree e nelle ore di maggior afflusso.</p>
         </div>
       </div>
     </div>
