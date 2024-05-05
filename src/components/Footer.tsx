@@ -3,6 +3,7 @@ import Image from 'next/image'
 import RefreshLogo from '../../public/REFRESH-logo.png'
 import Link from 'next/link'
 import instagram from '../../public/instagram.png'
+import facebook from '../../public/facebook-icon.svg'
 
 export default function Footer() {
   return (
@@ -16,8 +17,8 @@ export default function Footer() {
                 <div className='mt-12 text-gray-400/80 flex flex-col gap-3'>
                     <h3 className='uppercase font-semibold mb-2'>Contatti:</h3>
                     <h4 className=' '>Refreesh Srl Benefit</h4>
-                    <a className='hover:underline' href='mailto:info@refreesh.it'>info@refreesh.it</a>
-                    <p className="">Via lazzaro spallanzani 10 , Milano (MI)</p>
+                    <a className='hover:underline' href='mailto:info@refreesh.it'>Info@refreesh.it</a>
+                    <p className="">Via Lazzaro Spallanzani 10 - 20129 Milano (MI)</p>
                     <p>P. IVA: 13516410969</p>
                 </div>
           </div>
@@ -60,9 +61,12 @@ export default function Footer() {
       <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link href="/" className="hover:underline">Refreesh Srl Benefit</Link>. All Rights Reserved.
           </span>
-          <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 space-x-5 items-center sm:justify-center sm:mt-0">
               <a href="https://www.instagram.com/refreesh_official/" target='_blank'>
                     <Image src={instagram} height={30} width={30} alt='' />
+              </a>
+              <a className='fill-gray-500' href="https://www.facebook.com/profile.php?id=61558481692554" target='_blank'>
+                    <Image src={facebook} height={29} width={29} alt='' />
               </a>
           </div>
       </div>

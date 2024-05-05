@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
-import consulenza from "@/../public/consulenza.svg"
-import ricercaMercato from "@/../public/ricercaMercato.svg"
-import grafica from "@/../public/grafica.svg"
-import distribuzione from "@/../public/distribuzione.svg"
-import produzione from "@/../public/produzione.svg"
+import consulenza from "@/../public/consulenza.png"
+import ricercaMercato from "@/../public/ricercaMercato.png"
+import grafica from "@/../public/grafica.png"
+import distribuzione from "@/../public/distribuzione.png"
+import produzione from "@/../public/produzione.png"
 
 export default function Steps() {
   return (
@@ -17,12 +17,12 @@ export default function Steps() {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">1</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-      <div className="flex-shrink-0 w-28 h-28 bg-yellow-300 text-gray-800 rounded-full inline-flex items-center justify-center">
+      <div className="flex-shrink-0 w-28 h-28 text-gray-800 rounded-full inline-flex items-center justify-center">
           <Image src={consulenza} alt="consulenza"/>
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Consulenza iniziale e valutazione fattibilità</h2>
-          <p className="leading-relaxed">Analisi dei requisiti del cliente e valutazione dell&apos;idoneità della promozione dell&apos;acqua in cartone come veicolo pubblicitario.</p>
+          <p className="leading-relaxed">Analisi approfondita delle esigenze del cliente, valutazione e vantaggi nell'implementare una strategia di marketing basata sull'utilizzo di acqua in cartone come mezzo pubblicitario , includendo valutazione di fattibilità e proiezioni di costo e beneficio.</p>
         </div>
       </div>
     </div>
@@ -32,12 +32,12 @@ export default function Steps() {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">2</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-      <div className="flex-shrink-0 w-28 h-28 bg-yellow-300 text-gray-800 rounded-full inline-flex items-center justify-center">
+      <div className="flex-shrink-0 w-28 h-28  text-gray-800 rounded-full inline-flex items-center justify-center">
           <Image src={ricercaMercato} alt="ricercaMercato" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Ricerca di mercato</h2>
-          <p className="leading-relaxed">Studio delle tendenze di consumo di acqua e delle opportunità di mercato per l&apos;acqua promozionale in cartone, comprese le preferenze dei consumatori e le esigenze delle aziende.</p>
+          <p className="leading-relaxed">Analisi dettagliata del mercato per identificare i punti di distribuzione ottimali in linea con gli obiettivi e l'identità aziendale. L’obiettivo è garantire che la distribuzione avvenga in luoghi e tempi dove è più probabile intercettare e coinvolgere efficacemente il pubblico di interesse dell'azienda.</p>
         </div>
       </div>
     </div>
@@ -47,12 +47,12 @@ export default function Steps() {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">3</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-      <div className="flex-shrink-0 w-28 h-28 bg-yellow-300 text-gray-800 rounded-full inline-flex items-center justify-center">
+      <div className="flex-shrink-0 w-28 h-28  text-gray-800 rounded-full inline-flex items-center justify-center">
           <Image src={grafica} alt="grafica" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Studio e realizzazione grafica</h2>
-          <p className="leading-relaxed">Creazione di design accattivanti e personalizzati per le bottiglie d&apos;acqua in cartone, rispecchiando l&apos;identità del marchio del cliente e attirando l&apos;attenzione dei consumatori.</p>
+          <p className="leading-relaxed">Progettazione e sviluppo di grafiche innovative e su misura per le bottiglie d'acqua in cartone, mirate a rappresentare fedelmente l'identità del marchio del cliente,  coinvolgere il pubblico target attraverso un design distintivo.</p>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ export default function Steps() {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">4</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 w-28 h-28 bg-yellow-300 text-gray-800 rounded-full inline-flex items-center justify-center">
+        <div className="flex-shrink-0 w-28 h-28  text-gray-800 rounded-full inline-flex items-center justify-center">
           <Image src={produzione} alt="produzione" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -77,12 +77,12 @@ export default function Steps() {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">5</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-      <div className="flex-shrink-0 w-28 h-28 bg-yellow-300 text-gray-800 rounded-full inline-flex items-center justify-center">
+      <div className="flex-shrink-0 w-28 h-28 text-gray-800 rounded-full inline-flex items-center justify-center">
           <Image src={distribuzione} alt="distribuzione" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Distribuzione</h2>
-          <p className="leading-relaxed">Implementazione di strategie per distribuire le bottiglie d&apos;acqua promozionali in cartone presso i punti vendita selezionati, garantendo una visibilità ottimale del marchio del cliente tra i consumatori.</p>
+          <p className="leading-relaxed">Le bottiglie d'acqua in cartone vengono regalate ai consumatori nei nostri punti di distribuzione ufficiali Refreesh, situati strategicamente in aree e nelle ore di maggior afflusso.</p>
         </div>
       </div>
     </div>

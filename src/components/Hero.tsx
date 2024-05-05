@@ -20,8 +20,8 @@ export default function Hero() {
         <div className='flex mx-auto max-w-6xl gap-20 flex-col md:flex-row items-center justify-center'>
         <div className="pt-28 pb-8 md:py-56">
           <div className="text-center lg:text-start">
-            <h1 className=" font-bold tracking-tight text-gray-800 text-5xl lg:text-8xl">
-              RE<span className='text-c-yellow'>FREE</span>SH
+            <h1 className=" font-bold tracking-wide  text-gray-800 text-5xl lg:text-8xl">
+              RE<span className='font-outline-2 text-[2.8rem] tracking-wide lg:text-[5.8rem] text-c-yellow '>FREE</span>SH
             </h1>
             <p className="mt-6 text-lg leading-8 font-semibold text-gray-600">
             La prima acqua promozionale

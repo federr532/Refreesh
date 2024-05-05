@@ -14,8 +14,8 @@ import {
 const navigation = [
     { name: 'Home', href: '/'},
     { name: 'Chi siamo', href: '/chi-siamo' },
-    { name: 'Contattaci', href: '/contattaci',  },
     { name: 'Pubblicizza', href: '/pubblicizzare' },
+    { name: 'Contattaci', href: '/contattaci',  },
     { name: 'FAQ', href: '/faq' },
   ]
 
