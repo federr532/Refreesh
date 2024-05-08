@@ -101,7 +101,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Raccolta dati</h2>
-          <p className="leading-relaxed">Durante la campagna vengono raccolte informazioni pertinenti che consentano di valutare l'andamento della stessa. Questi dati saranno raccolti direttamente nei punti di distribuzione Refresh attraverso sondaggi e moduli che verranno compilati dai consumatori con il supporto del nostro team</p>
+          <p className="leading-relaxed">Durante la campagna vengono raccolte informazioni pertinenti che consentano di valutare l&apos;andamento della stessa. Questi dati saranno raccolti direttamente nei punti di distribuzione Refresh attraverso sondaggi e moduli che verranno compilati dai consumatori con il supporto del nostro team</p>
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@ export default function Steps() {
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Analisi dei risultati</h2>
-          <p className="leading-relaxed">Durante il processo di analisi dei risultati della campagna , vengono esaminati i dati raccolti, i feedback dei consumatori ottenuti attraverso sondaggi e interviste, il monitoraggio dei social media per valutare l'engagement e l'interesse generato, per comprendere la percezione del marchio ed eventuali aree di miglioramento.</p>
+          <p className="leading-relaxed">Durante il processo di analisi dei risultati della campagna , vengono esaminati i dati raccolti, i feedback dei consumatori ottenuti attraverso sondaggi e interviste, il monitoraggio dei social media per valutare l&apos;engagement e l&apos;interesse generato, per comprendere la percezione del marchio ed eventuali aree di miglioramento.</p>
         </div>
       </div>
     </div>
