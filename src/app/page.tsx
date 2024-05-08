@@ -17,6 +17,7 @@ export default function Home() {
       <section>
         <Hero />
         <Cards />
+        <Description />
         <PhotoCarousel />
         {domain === 'refreesh.it' || domain === 'refreesh.com' || domain === 'www.refreesh.com' || domain === 'www.refreesh.it'? <Feed /> : null}
       </section>

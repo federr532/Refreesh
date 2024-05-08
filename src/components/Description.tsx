@@ -1,25 +1,33 @@
-import React from 'react'
-import Image from 'next/image'
-import bottGial from '../../public/botGial.png'
-import noPlastica from '../../public/noPlastica.png'
+import Image from "next/image"
+
+import grafica1 from "@/../public/grafica1.png"
+import grafica2 from "@/../public/grafica2.png"
+import grafica4 from "@/../public/grafica4.png"
 
 export default function Description() {
   return (
-    <section id='chisiamo' className='flex flex-col items-center justify-center'>
-        <div className='flex lg:mt-44 px-20 justify-center'>
-            <div className='flex gap-14 lg:gap-28 items-center flex-col lg:flex-row'>
-                <Image draggable="false" src={bottGial} height={500} width={500} alt='bottle' className='h-[30rem] md:h-[40rem] object-cover' />
-                <div>
-                    <p className='max-w-xl mt-9 text-lg text-center lg:text-start text-gray-500'>Refreesh è la prima start-up in Italia di Acqua Promozionale, offre alle aziende la possibilità di promuovere i propri marchi e prodotti su bottiglie di acqua di cartone. La chiave distintiva di questo progetto è che le bottiglie stesse sono finanziate dalla pubblicità delle aziende, il che consente di distribuirle gratuitamente ai consumatori</p>
-                </div>
-            </div>
-        </div>
-        <div className='mt-28 px-20 flex flex-col lg:flex-row gap-28 xl:gap-72 items-center'>
+    <section className="flex px-6 xl:px-14 gap-24 lg:gap-9 flex-col items-center mt-20">
+        <div className="flex flex-col gap-9 lg:gap-16 lg:flex-row items-center">
+            <Image src={grafica4} alt="grafica1" width={1000} height={1000} className="lg:w-1/2 lg:max-w-3xl" />
             <div>
-                <h3 className='text-2xl text-center lg:text-start md:text-3xl xl:text-5xl font-semibold'>Niente plastica, solo cartone</h3>
-                <p className='max-w-xl mt-9 text-center lg:text-start text-gray-500'>REFREESH utilizza esclusivamente bottiglie di cartone, sostenibili e riciclabili, riducendo così l&apos;impatto ambientale, rendendo sostenibile la pubblicità e migliorando l&apos;immagine delle aziende partner</p>
+                <h3 className="text-4xl xl:text-5xl font-semibold text-gray-900 text-center lg:text-start">Cosa Offre Refreesh?</h3>
+                <p className="max-w-2xl text-gray-600 text-lg mt-10 text-center lg:text-start">Offriamo alle aziende un&apos;opportunità unica di promuovere i propri brand e prodotti attraverso bottiglie d&apos;acqua di cartone, sostenendo al contempo l&apos;ambiente e la sostenibilità. Refreesh si distingue per il suo impegno verso l&apos;ambiente, utilizzando esclusivamente bottiglie di cartone sostenibili e riciclabili.</p>
             </div>
-            <Image draggable="false" src={noPlastica} height={500} width={500} alt='no plastica' className='scale-125' />
+
+        </div>
+        <div className="flex flex-col gap-5 lg:flex-row items-center">
+            <div>
+                <h3 className="text-4xl  xl:text-5xl font-semibold text-gray-900 text-center lg:text-start">Distinguiti Dalla Concorrenza</h3>
+                <p className="max-w-2xl text-gray-600 text-lg mt-10 text-center lg:text-start">Questa innovativa soluzione consente alle aziende di finanziare le bottiglie, consentendo poi la distribuzione gratuita ai consumatori; distinguendovi dalla concorrenza e lasciando un&apos;impressione duratura raggiungendo consumatori in ambienti chiave, aumentando la riconoscibilità del vostro brand.</p>
+            </div>
+            <Image src={grafica1} alt="grafica1" width={1000} height={1000} className="lg:w-[40%] lg:max-w-3xl" />
+        </div>
+        <div className="flex flex-col gap-5 lg:gap-16 lg:flex-row items-center">
+        <Image src={grafica2} alt="grafica1" width={1000} height={1000} className="lg:w-1/2 lg:max-w-3xl" />
+            <div>
+                <h3 className="text-4xl xl:text-5xl max-w-3xl font-semibold text-gray-900 text-center lg:text-start">Pubblicità Innovativa e Sostenibile</h3>
+                <p className="max-w-2xl text-gray-600 text-lg mt-10 text-center lg:text-start">La pubblicità è un elemento molto importante del marketing. È il ponte attraverso il quale un&apos; azienda aiuta i clienti a comprendere diversi prodotti o servizi. Ancora più importante se ciò avviene attraverso una scelta <b>innovativa</b>, ma allo stesso tempo <b>sostenibile</b>.</p>
+            </div>
         </div>
     </section>
   )

@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 import yellow from "@/../public/Gallery/yellow.webp"
 import noPlastica from "@/../public/noPlastica.png"
+import grafica3 from "@/../public/grafica3.png"
 
 
 export default function Page() {
@@ -31,7 +32,7 @@ export default function Page() {
               </Link>
         </div>
         </div>
-        <div className='flex flex-col w-full justify-center items-center mt-24 bg-gray-200 rounded-lg px-12 py-14 lg:py-28 gap-20 lg:gap-0 lg:flex-row'>
+        <div className='flex flex-col w-full justify-center items-center mt-24 bg-gray-200 rounded-lg px-12 lg:px-20 py-14 lg:py-28 gap-20 lg:gap-0 lg:flex-row'>
             <div className='lg:pr-24 gap-10 flex flex-col 2xl:justify-center'>
             <h1 className={`duration-700 text-5xl text-gray-800 font-semibold ${isInView ? "translate-x-0 opacity-100" : "translate-x-80 opacity-0"}`}>Niente plastica, solo cartone</h1>
             <p className= {`duration-700 max-w-2xl text-xl text-gray-500 ${isInView ? "translate-x-0 opacity-100" : "translate-x-80 opacity-0"}`}>
@@ -39,6 +40,13 @@ export default function Page() {
             </p>
         </div>
         <Image src={noPlastica} height={500} width={500} alt="Chi siamo" className={`duration-700 scale-125 rounded-lg h-full lg:ml-28  ${isInView ? "translate-x-0 opacity-100" : "-translate-x-80 opacity-0"}`} />
+        </div>
+        <div className="flex flex-col gap-16 lg:flex-row items-center mt-24 px-6">
+        <Image src={grafica3} alt="grafica1" width={1000} height={1000} className={`duration-700 lg:w-1/2 lg:max-w-3xl ${isInView ? "translate-x-0 opacity-100" : "-translate-x-80 opacity-0"}`} />
+            <div>
+                <h3 className={`text-4xl xl:text-5xl max-w-3xl font-semibold duration-500 text-gray-900 text-center lg:text-start  ${isInView ? "translate-x-0 opacity-100" : "translate-x-80 opacity-0"}`}>La Nostra Bottiglia</h3>
+                <p className={`max-w-2xl text-gray-600 text-lg duration-500 mt-10 text-center lg:text-start ${isInView ? "translate-x-0 opacity-100" : "translate-x-80 opacity-0"}`}>Presentiamo qui la struttura intricata della nostra esclusiva bottiglia in cartone</p>
+            </div>
         </div>
     </section>
   )

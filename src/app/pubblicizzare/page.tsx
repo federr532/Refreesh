@@ -13,8 +13,8 @@ export default function page() {
     <section className='mt-36 overflow-hidden  lg:px-32'>
         <div className='flex flex-col lg:flex-row items-center max-w-[120rem] mx-auto justify-around'>
             <div className='flex flex-col items-center lg:items-start'>
-            <h1 className=" font-bold tracking-wide  text-gray-800 text-center text-3xl lg:text-5xl">Pubblicizza con 
-              RE<span className='font-outline-2 text-[1.8rem] tracking-wide lg:text-[3rem] text-c-yellow '>FREE</span>SH
+            <h1 className=" font-bold tracking-wide  text-gray-800 text-center lg:text-start text-4xl lg:text-6xl">Pubblicizza con 
+              RE<span className='font-outline-2 text-[2.2rem] tracking-wide lg:text-[3.7rem] text-c-yellow '>FREE</span>SH
             </h1>
                 <p className='mt-8 mb-12 px-10 lg:px-0 text-gray-500 xl:text-xl text-center lg:text-start'>Promuovi il Tuo Brand in Modo Sostenibile e Accessibile</p>
                 <Link href="/contattaci" className="rounded-md bg-c-yellow w-fit duration-150 px-7 py-4 font-semibold text-gray-700 shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">

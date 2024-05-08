@@ -6,6 +6,10 @@ import ricercaMercato from "@/../public/ricercaMercato.png"
 import grafica from "@/../public/grafica.png"
 import distribuzione from "@/../public/distribuzione.png"
 import produzione from "@/../public/produzione.png"
+import raccoltaDati from "@/../public/raccoltaDati.png"
+import analisiDati from "@/../public/analisiDati.png"
+import rapportoFinale from "@/../public/rapportoFinale.png"
+
 
 export default function Steps() {
   return (
@@ -83,6 +87,51 @@ export default function Steps() {
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
           <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Distribuzione</h2>
           <p className="leading-relaxed">Le bottiglie d&apos;acqua in cartone vengono regalate ai consumatori nei nostri punti di distribuzione ufficiali Refreesh, situati strategicamente in aree e nelle ore di maggior afflusso.</p>
+        </div>
+      </div>
+    </div>
+    <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">6</div>
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+      <div className="flex-shrink-0 w-28 h-28 text-gray-800 rounded-full inline-flex items-center justify-center">
+          <Image src={raccoltaDati} alt="raccolta dati" />
+        </div>
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Raccolta dati</h2>
+          <p className="leading-relaxed">Durante la campagna vengono raccolte informazioni pertinenti che consentano di valutare l'andamento della stessa. Questi dati saranno raccolti direttamente nei punti di distribuzione Refresh attraverso sondaggi e moduli che verranno compilati dai consumatori con il supporto del nostro team</p>
+        </div>
+      </div>
+    </div>
+    <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">7</div>
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+      <div className="flex-shrink-0 w-28 h-28 text-gray-800 rounded-full inline-flex items-center justify-center">
+          <Image src={analisiDati} alt="analisi dati" />
+        </div>
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Analisi dei risultati</h2>
+          <p className="leading-relaxed">Durante il processo di analisi dei risultati della campagna , vengono esaminati i dati raccolti, i feedback dei consumatori ottenuti attraverso sondaggi e interviste, il monitoraggio dei social media per valutare l'engagement e l'interesse generato, per comprendere la percezione del marchio ed eventuali aree di miglioramento.</p>
+        </div>
+      </div>
+    </div>
+    <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-slate-700 text-gray-100 relative z-10 title-font font-medium text-sm">8</div>
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+      <div className="flex-shrink-0 w-28 h-28 text-gray-800 rounded-full inline-flex items-center justify-center">
+          <Image src={rapportoFinale} alt="rapporto finale" />
+        </div>
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Rapporto finale</h2>
+          <p className="leading-relaxed">Il rapporto finale include una panoramica degli obiettivi raggiunti misurati tramite indicatori chiave di prestazione (KPI).</p>
         </div>
       </div>
     </div>

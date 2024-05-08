@@ -29,7 +29,7 @@ const images = [
 
 export default function CarouselSpacing() {
   return (
-    <Carousel className="max-w-[100rem] mx-auto px-10 mt-52">
+    <Carousel className="max-w-[100rem] mx-auto px-10 mt-36 lg:mt-52">
       <CarouselContent className="-ml-1">
         {images.map((image, index) => (
           <CarouselItem key={index} className="pl-3 md:basis-1/2 lg:basis-1/3">
