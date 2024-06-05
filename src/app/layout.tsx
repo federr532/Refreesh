@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { Analytics } from '@vercel/analytics/react';
 import { Toaster } from "@/components/ui/toaster"
+import { CSPostHogProvider } from './providers'
 
 const inter = Montserrat({
   subsets: ['latin'],
@@ -27,11 +28,13 @@ export default function RootLayout({
         <link rel='icon' href='/favicon.ico'/>
       </head>
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
-        <Analytics />
-        <Toaster />
+        <CSPostHogProvider>
+            <Navbar />
+            {children}
+            <Footer />
+            <Analytics />
+            <Toaster />
+        </CSPostHogProvider>
         </body>
     </html>
   )
