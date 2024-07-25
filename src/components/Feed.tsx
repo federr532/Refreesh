@@ -12,7 +12,7 @@ async function Feed() {
 
   return (
     <section className='text-gray-900 mt-56 px-9 max-w-[110rem] mx-auto md:px-14'>
-        <h4 className='text-3xl text-center '>Instagram Photo Gallery</h4>
+        <h3 className="text-4xl xl:text-5xl font-semibold text-gray-900 text-center">Instagram Photo Gallery</h3>
         <div className='grid gap-5 grid-cols-1 mt-14 md:grid-cols-3 lg:grid-cols-3'>
         {posts && posts.map((post : any) => {
             return  (
