@@ -9,27 +9,18 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-import Image from 'next/image'
+import {cn} from "@/lib/utils"
 
-import freud from "@/../public/Gallery/freud.webp"
-import freud2 from "@/../public/Gallery/freud2.webp"
-import yellow from "@/../public/Gallery/yellow.webp"
-import rial from "@/../public/Gallery/rialAuto1.webp"
-import rial2 from "@/../public/Gallery/rialAuto2.webp"
-import rial3 from "@/../public/Gallery/rial3.webp"
+import Image, { StaticImageData } from 'next/image'
 
-const images = [
-    yellow,
-    rial,
-    freud,
-    freud2,
-    rial2,
-    rial3,
-]
+type Props = {
+  images: StaticImageData[],
+  className?: string
+}
 
-export default function CarouselSpacing() {
+export default function CarouselSpacing({images,className} : Props) {
   return (
-    <Carousel className="max-w-[100rem] mx-auto px-10 mt-36 lg:mt-52">
+    <Carousel className={cn('max-w-[100rem]', className)}>
       <CarouselContent className="-ml-1">
         {images.map((image, index) => (
           <CarouselItem key={index} className="pl-3 md:basis-1/2 lg:basis-1/3">
