@@ -6,7 +6,7 @@ import Feed from '@/components/Feed'
 import PhotoCarousel from '@/components/PhotoCarousel'
 import { headers } from 'next/headers';
 import images from "@/components/data/BottlesImages"
-import Event from '@/components/Event'
+import EventImages from "@/components/data/EventImages"
 
 
 export default function Home() {
@@ -21,7 +21,8 @@ export default function Home() {
         <Cards />
         <Description />
         <PhotoCarousel className=' mx-auto mt-36 px-8 lg:mt-52' images={images} />
-        <Event />
+          <h3 className="text-4xl mt-44 lg:mt-56 xl:text-5xl px-1 font-semibold text-gray-900 text-center">Il primo evento Refreesh</h3>
+          <PhotoCarousel className='px-8 mx-auto mt-12' images={EventImages} />
         {domain === 'refreesh.it' || domain === 'refreesh.com' || domain === 'www.refreesh.com' || domain === 'www.refreesh.it'? <Feed /> : null}
       </section>
   )
