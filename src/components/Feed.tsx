@@ -18,7 +18,7 @@ async function Feed() {
             return  (
                 post.media_type==="IMAGE" || post.media_type === "CAROUSEL_ALBUM" ? <Link href={post.permalink} key={post.id} target='_blank' className='relative group cursor-pointer'>
                     <Image src={instagram} height={50} width={50} alt='instagram' className='opacity-0 group-hover:opacity-100 duration-300 absolute right-3 top-3 z-20' />
-                    <Image src={post.media_url} height={500} width={500} alt={post.caption} className='w-full duration-300 group-hover:opacity-60 rounded-lg object-cover h-full'/>
+                    <img src={post.media_url} height={500} width={500} alt={post.caption} className='w-full duration-300 group-hover:opacity-60 rounded-lg object-cover h-full'/>
                     </Link> : null
                 )
             })}
