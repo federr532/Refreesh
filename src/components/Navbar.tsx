@@ -15,6 +15,7 @@ const navigation = [
     { name: 'Home', href: '/'},
     { name: 'Chi siamo', href: '/chi-siamo' },
     { name: 'Pubblicizza', href: '/pubblicizzare' },
+    { name: 'Company Profile', href: '/companyProfile.pdf' },
     { name: 'Contattaci', href: '/contattaci',  },
     { name: 'FAQ', href: '/faq' },
   ]
@@ -44,7 +45,7 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-black font-semibold" : "text-gray-500"} hover:text-black leading-6`}>
+              <Link key={item.name} target={item.name === 'Company Profile' ? '_blank' : ''} onClick={() => setMobileMenuOpen(false)} href={item.href} className={`text-sm ${pathname === item.href ? "text-black font-semibold" : "text-gray-500"} hover:text-black leading-6`}>
                 {item.name}
               </Link>
             ))}
@@ -74,6 +75,7 @@ export default function Navbar() {
                   {navigation.map((item) => (
                     <a
                     onClick={() => setMobileMenuOpen(false)}
+                    target={item.name === 'Company Profile' ? '_blank' : ''}
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-200/80"
